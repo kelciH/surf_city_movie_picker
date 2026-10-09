@@ -74,6 +74,18 @@ const movies = [
         year: 2024,
         genre: "Documentary",
         runTime: 46
+    },
+    {
+        name: "How to Train Your Dragon",
+        year: 2010,
+        genre: "Adventure",
+        runTime: 1 +":"+38
+    },
+    {
+        name: "Treasure Planet",
+        year: 2002,
+        genre: "Adventure",
+        runTime: 1 +":"+35
     }
 ]
 

@@ -68,6 +68,12 @@ const movies = [
         year: 2000,
         genre: "Adventure",
         runTime: 2 + ":" + 10
+    },
+    {
+        name: "The Blue Angels",
+        year: 2024,
+        genre: "Documentary",
+        runTime: 46
     }
 ]
 

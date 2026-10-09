@@ -14,6 +14,7 @@ body {
   flex-direction: column;
   border: solid 3px #5c4033;
   padding: 30px;
+  flex-wrap: wrap;
 }
 
 .header {
@@ -22,12 +23,15 @@ body {
 }
 
 .controls {
-  width: 1000px;
-  height: 50px;
+  max-width: 1000px;
+  min-width: 500px;
+  width: 100%;
+  min-height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin: 15px;
+  flex-wrap: wrap;
 }
 
 #movieCount {
@@ -75,7 +79,8 @@ select {
 }
 
 .movies {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   min-height: 50px;
   display: flex;
   align-items: center;

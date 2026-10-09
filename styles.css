@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  border: solid 3px #5c4033;
+  /* border: solid 3px #5c4033; */
   padding: 30px;
   flex-wrap: wrap;
 }
